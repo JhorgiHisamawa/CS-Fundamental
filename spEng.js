@@ -1,4 +1,5 @@
 function spEng(sentence){
-  if(sentence.includes("english")){ return true }
+  let sentencefix = sentence.toLowerCase()
+  if(sentencefix.includes("english")){ return true }
   else { return false }
 }
