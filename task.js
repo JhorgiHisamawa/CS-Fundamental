@@ -18,3 +18,17 @@ let x = c * n
          return `It is ${w} today, William, you have to work, you must spray ${n} trees and you need ${x} dollars to buy liquid`;
        } 
 }
+
+//================================ atau ===============================================//
+
+const task = (w, n, c) => {
+  let pekerja = {
+    Monday: 'James',
+    Tuesday: 'John',
+    Wednesday: 'Robert',
+    Thursday: 'Michael',
+    Friday: 'William'
+  };
+  
+  return `It is ${w} today, ${pekerja[w]}, you have to work, you must spray ${n} trees and you need ${n * c} dollars to buy liquid`;
+};
